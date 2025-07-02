@@ -125,9 +125,9 @@ TW_LOAD_VENDOR_MODULES := $(shell echo \"$(shell ls $(DEVICE_PATH)/prebuilt/modu
 
 # Statusbar icons flags
 TW_STATUS_ICONS_ALIGN := center
-TW_CUSTOM_CLOCK_POS := 30
-TW_CUSTOM_CPU_POS := 180
-TW_CUSTOM_BATTERY_POS := 540
+TW_CUSTOM_CLOCK_POS := 50
+TW_CUSTOM_CPU_POS := 290
+TW_CUSTOM_BATTERY_POS := 800
 
 
 # Add TW_DEVICE_VERSION
@@ -155,4 +155,3 @@ BOARD_RAMDISK_USE_LZ4 := true
 
 # Remove vibration support
 TW_NO_HAPTICS := true
-
