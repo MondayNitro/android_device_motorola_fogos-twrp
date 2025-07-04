@@ -2,11 +2,8 @@
 ##### OrangeFox specific build flags #####
 ##########################################
 
-# Maintainer
-OF_MAINTAINER := PrintHelloPeople
-
 OF_SCREEN_H=2400
-OF_STATUS_H=100
+OF_STATUS_H=101
 OF_STATUS_INDENT_LEFT=45
 OF_STATUS_INDENT_RIGHT=45
 
@@ -49,3 +46,4 @@ FOX_USE_TAR_BINARY=1
 FOX_USE_XZ_UTILS=1
 FOX_USE_SED_BINARY=1
 OF_ENABLE_LPTOOLS=1
+OF_ENABLE_ALL_PARTITION_TOOLS := 1
