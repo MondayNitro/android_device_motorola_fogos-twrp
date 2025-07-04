@@ -44,6 +44,7 @@ on boot
 on post-fs
     start boot-hal-1-1
 
+
 on property:sys.boot_completed=1
    start mount_vendor
 
@@ -59,3 +60,12 @@ service set_permissive /system/bin/set_permissive.sh
     group root
     oneshot
     seclabel u:r:recovery:s0
+
+service mount_vendor /system/bin/mount_vendor.sh
+    user root
+    group root
+    oneshot
+    seclabel u:r:recovery:s0
+
+
+
