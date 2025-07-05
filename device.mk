@@ -48,7 +48,7 @@ PRODUCT_PACKAGES += \
 
 # Boot control
 PRODUCT_PACKAGES += \
-    android.hardware.boot@1.1-impl-qti.recovery \
+    android.hardware.boot@1.2-impl-qti.recovery \
     bootctrl.holi.recovery
 
 # Update engine
@@ -61,12 +61,11 @@ PRODUCT_PACKAGES += \
 TARGET_RECOVERY_DEVICE_MODULES += \
     libion \
     libxml2 \
-    vendor.display.config@1.0 \
     vendor.display.config@2.0
 
 # fastbootd
 PRODUCT_PACKAGES += \
-    android.hardware.fastboot@1.0-impl-mock \
+    android.hardware.fastboot@1.1-impl-mock \
     fastbootd
 
 # Partitions
@@ -78,7 +77,7 @@ PRODUCT_PACKAGES += \
     qcom_decrypt_fbe
 
 # Shipping level
-PRODUCT_SHIPPING_API_LEVEL := 30
+PRODUCT_SHIPPING_API_LEVEL := 34
 PRODUCT_TARGET_VNDK_VERSION := 30
 
 # Soong namespaces
