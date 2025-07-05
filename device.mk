@@ -77,7 +77,7 @@ PRODUCT_PACKAGES += \
     qcom_decrypt_fbe
 
 # Shipping level
-PRODUCT_SHIPPING_API_LEVEL := 34
+PRODUCT_SHIPPING_API_LEVEL := 30
 PRODUCT_TARGET_VNDK_VERSION := 30
 
 # Soong namespaces
