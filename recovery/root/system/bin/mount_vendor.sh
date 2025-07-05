@@ -8,7 +8,7 @@ while true; do
 
     keycheck
 
-    if [ $? -eq 41 ]; then
+    if [ $? -eq 42 ]; then
         # Incrementa il contatore
         ((i++))
         echo "Volume down detected, $i" | tee /dev/kmsg > /dev/null
