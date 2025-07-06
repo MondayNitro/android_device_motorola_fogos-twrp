@@ -48,7 +48,7 @@ PRODUCT_PACKAGES += \
 
 # Boot control
 PRODUCT_PACKAGES += \
-    android.hardware.boot@1.2-impl-qti.recovery \
+    android.hardware.boot@1.1-impl-qti.recovery \
     bootctrl.holi.recovery
 
 # Update engine
