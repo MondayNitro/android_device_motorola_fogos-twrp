@@ -61,12 +61,11 @@ PRODUCT_PACKAGES += \
 TARGET_RECOVERY_DEVICE_MODULES += \
     libion \
     libxml2 \
-    vendor.display.config@1.0 \
     vendor.display.config@2.0
 
 # fastbootd
 PRODUCT_PACKAGES += \
-    android.hardware.fastboot@1.0-impl-mock \
+    android.hardware.fastboot@1.1-impl-mock \
     fastbootd
 
 # Partitions
