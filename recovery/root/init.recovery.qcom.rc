@@ -45,7 +45,7 @@ on post-fs
     start boot-hal-1-1
 
 
-on property:sys.boot_completed=1
+on ppst-fs-data
    start mount_vendor
 
 on property:twrp.modules.loaded=true
