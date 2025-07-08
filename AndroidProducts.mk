@@ -9,5 +9,5 @@ PRODUCT_MAKEFILES := \
 
 COMMON_LUNCH_CHOICES := \
     twrp_fogos-eng \
-	twrp_fogos-user \
-	twrp_fogos-userdebug
+    twrp_fogos-user \
+    twrp_fogos-userdebug
