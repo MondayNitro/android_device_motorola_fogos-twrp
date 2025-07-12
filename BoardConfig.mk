@@ -124,8 +124,8 @@ TW_LOAD_VENDOR_MODULES := $(shell echo \"$(shell ls $(DEVICE_PATH)/prebuilt/modu
 
 # Statusbar icons flags
 TW_STATUS_ICONS_ALIGN := center
-TW_CUSTOM_CLOCK_POS := 50
-TW_CUSTOM_CPU_POS := 555
+TW_CUSTOM_CLOCK_POS := 48
+TW_CUSTOM_CPU_POS := 570
 TW_CUSTOM_BATTERY_POS := 960
 
 
