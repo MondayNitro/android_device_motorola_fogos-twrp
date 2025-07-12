@@ -11,7 +11,7 @@ while true; do
     if [ $? -eq 42 ]; then
         # Incrementa il contatore
         ((i++))
-        echo "Volume down detected, $i" | tee /dev/kmsg > /dev/null
+        echo "Volume up detected, $i" | tee /dev/kmsg > /dev/null
 
     fi
 
@@ -24,4 +24,4 @@ while true; do
     sleep 1
 done
 
-twrp mount /vendor
+mount /vendor
