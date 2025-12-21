@@ -119,7 +119,7 @@ TW_INCLUDE_CRYPTO := true
 TW_NO_EXFAT_FUSE := true
 TW_INCLUDE_REPACKTOOLS := true
 TW_INCLUDE_RESETPROP := true
-TW_LOAD_VENDOR_MODULES := $(shell echo \"$(shell ls $(DEVICE_PATH)/prebuilt/modules)\")
+TW_LOAD_VENDOR_MODULES := mmi_info.ko mmi_annotate.ko sensors_class.ko exfat.ko qpnp_adaptive_charge.ko mmi_sys_temp.ko mmi-smbcharger-iio.ko chipone_tddi_v2_mmi.ko ilitek_v3_mmi.ko
 
 # Statusbar icons flags
 TW_STATUS_ICONS_ALIGN := center
