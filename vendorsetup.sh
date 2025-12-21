@@ -10,5 +10,5 @@ export FOX_RECOVERY_SYSTEM_PARTITION="/dev/block/mapper/system"
 export FOX_RECOVERY_VENDOR_PARTITION="/dev/block/mapper/vendor"
 
 export FOX_MAINTAINER_PATCH_VERSION="1"
-export FOX_VARIANT="A12"
+export FOX_VARIANT="A12.1"
 export FOX_BUILD_TYPE="Stable"
