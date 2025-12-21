@@ -3,7 +3,7 @@
 ##########################################
 
 OF_SCREEN_H=2400
-OF_STATUS_H=102
+OF_STATUS_H=132
 OF_STATUS_INDENT_LEFT=45
 OF_STATUS_INDENT_RIGHT=45
 
