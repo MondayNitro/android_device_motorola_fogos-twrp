@@ -21,7 +21,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 AB_OTA_PARTITIONS += \
     boot \
     dtbo \
-    odm \
     product \
     system \
     system_ext \
