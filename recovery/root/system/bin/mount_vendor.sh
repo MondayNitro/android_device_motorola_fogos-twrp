@@ -24,4 +24,4 @@ while true; do
     sleep 1
 done
 
-mount /vendor
+twrp mount /vendor
