@@ -128,7 +128,7 @@ TW_LOAD_VENDOR_MODULES := "mmi_info.ko mmi_annotate.ko sensors_class.ko exfat.ko
 # Statusbar icons flags
 TW_STATUS_ICONS_ALIGN := bottom
 TW_CUSTOM_CLOCK_POS := 48
-TW_CUSTOM_CPU_POS := 582
+TW_CUSTOM_CPU_POS := 591
 TW_CUSTOM_BATTERY_POS := 954
 
 # Add TW_DEVICE_VERSION
